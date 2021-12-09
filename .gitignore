@@ -5,6 +5,7 @@
 *.tfstate
 *.tfstate.*
 *.tfvars
+*.lock.hcl
 *.pub
 my-key
 my-key.pub
