@@ -35,7 +35,7 @@ resource "aws_db_instance" "db-base-mysql" {
     #add 2nd ava zone
     availability_zone           = "${aws_subnet.base-subnet-private-1.availability_zone}"
     maintenance_window          = "Sat:04:00-Sat:06:00"
-    multi_az                    = true
+    #multi_az                    = true
     skip_final_snapshot         = true
     final_snapshot_identifier = false
 }

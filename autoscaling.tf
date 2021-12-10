@@ -16,7 +16,6 @@ data "template_file" "init" {
     }
 }
 
-#resource "aws_autoscaling_group" "foobar" {
 resource "aws_autoscaling_group" "as-group" {
     name                      = "as-group"
     max_size                  = 4
