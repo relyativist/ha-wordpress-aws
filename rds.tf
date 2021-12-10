@@ -25,7 +25,6 @@ resource "aws_db_instance" "db-base-mysql" {
     engine                      = "mysql"
     engine_version              = "5.7"
     instance_class              = "${var.db-instance-type}"
-    #name                        = "myrdstestmysql"
     name                        = "baserdsmysql"    
     username                    = "admin"
     password                    = "admin123"
